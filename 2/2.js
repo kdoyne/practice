@@ -45,5 +45,5 @@ const testList = new Item(1)
   .addItem(4)
   .addItem(5);
 
-console.log(JSON.stringify(kthToLast(2, testList))); // O(n) where n is length of the list
-
+console.log(kthToLast(2, testList)); // O(n) where n is length of the list
+console.log(kthToLast(4, testList))
